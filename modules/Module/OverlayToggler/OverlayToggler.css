@@ -1,0 +1,60 @@
+/*
+ * Copyright (C) 2011-2013 sMap Project and its contributors.
+ * See the NOTICE file for details.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+
+
+#oltoggler-maindiv {
+	background: #eee;
+	opacity: 0.9;
+	padding: 0;
+	width: auto;
+	height: auto;
+	border: 1px solid #aaa;
+	border-width: 1px;
+	z-index: 1010;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+#oltoggler-container {
+	border-spacing: 0 1px;
+	border-color: #aaa !important;
+}
+
+#oltoggler-container tr {
+	max-width: 200px;
+	cursor: pointer;
+	background: #fff;
+}
+#oltoggler-container td {
+	padding: 8px;
+}
+#oltoggler-container td img {
+	width: 15px;
+	height: 15px;
+}
+
+
+#oltoggler-container .ui-state-hover {
+	background: #eee;
+	color: #222;
+}
+#oltoggler-container .ui-state-active {	
+	background: #EF7D0B; /*#EF7D0B;*/
+	color: #fff;
+}

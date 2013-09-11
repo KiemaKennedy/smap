@@ -1,0 +1,75 @@
+/*
+ * Copyright (C) 2011-2013 sMap Project and its contributors.
+ * See the NOTICE file for details.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+
+
+#search-nopoitext {
+	font-family: Verdana;
+	left: 2px;
+	margin: 5px;
+	top: 2px;
+}
+
+/*Used for the drop-down menu; if that option is set to true in Search_conf.js */
+#search-dropdownmenu {
+	cursor: pointer;
+	cursor: hand;
+	position: relative;	
+}
+#search-optionsmenu {
+	height: auto;
+	display: block;
+	position: absolute;
+	white-space: nowrap;
+	z-index: 1202;
+}
+#search-btnclose {
+	cursor: pointer;
+	cursor: hand;
+	margin-bottom : 5px;
+	position : absolute;
+	right : 5px;
+	top : 5px;
+}
+#search-innerdiv {
+	padding-bottom: 25px;
+	text-align: center;
+}
+.search-popup1 {
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 5px;	
+}
+.noTitleDialog .ui-dialog-titlebar {
+	display:none;
+}
+.search-popup {
+	font-size: 1em;
+	font-family: Helvetica, arial, sans-serif;
+}
+#searchBox {
+	transition: width 500ms;
+	-moz-transition: width 500ms; /* Firefox 4 */
+	-webkit-transition: width 500ms; /* Safari and Chrome */
+	-o-transition: width 500ms; /* Opera */
+	line-height: 26px;
+	height: 26px;
+	top: 0px;
+}
+#searchBox:focus {
+	width: 250px !important;
+}

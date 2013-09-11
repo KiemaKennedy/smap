@@ -1,0 +1,68 @@
+/*
+ * Copyright (C) 2011-2013 sMap Project and its contributors.
+ * See the NOTICE file for details.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+
+
+.popup-text1 {
+	font-size: 1em;	
+}
+.popup-text2 {
+    font-size: 1em;
+    font-weight: bold;
+}
+.popup-header1 {
+	border-bottom: 1px solid #CCC;
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 8px;
+	margin-top: 10px;
+	padding-bottom: 3px;
+	
+}
+.popup-header2 {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.popup-header3 {
+	font-size: 1em;
+	font-weight: bold;
+	font-type: italic;	
+}
+.popup-img1, .popup-img1 img {
+	max-width: 150px;
+}
+.olFramedCloudPopupContent img {
+	width: 100%;
+}
+.olFramedCloudPopupContent a[href=""]{
+	display: none;
+}
+/* Remove-button in popup */
+.popup-rmBtn{
+	
+}
+
+/* CSS for images embedded in an <a>-tag */
+.popup-a-img
+.popup-a-img:visited,
+.popup-a-img:link,
+.popup-a-img:hover,
+.popup-a-img:active  {
+    text-decoration: none;
+    color: none;
+}

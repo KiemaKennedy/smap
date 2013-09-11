@@ -1,0 +1,77 @@
+/*
+ * Copyright (C) 2011-2013 sMap Project and its contributors.
+ * See the NOTICE file for details.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+
+
+.toolsmenu-dropdown {
+	border: 1px solid #848484;
+	cursor: pointer;
+	cursor: hand;
+	height: auto;
+	position: absolute;
+	white-space: nowrap;
+	z-index: 1;
+	border-top: 1px solid #848484 !important;
+	padding-top: 10px;
+	background: #fff !important;
+	-webkit-border-radius: 0 2px 2px 2px !important;
+	-moz-border-radius: 0 2px 2px 2px !important;
+	border-radius: 0 2px 2px 2px !important;
+	-webkit-box-shadow: 1px 1px 15px #999;
+	box-shadow: 1px 1px 15px #999;
+}
+
+.toolsmenu-rows div {
+	border-top: none !important;
+}
+
+.toolsmenu-rows .ui-button-text {
+	text-align: left;	
+}
+
+.toolsmenu-rows .ui-state-default {
+	width : auto;
+	background: #fff !important;
+	color: #666 !important;
+	border-width: 0 !important;
+	border-bottom: 1px solid #eee !important;
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
+}
+.toolsmenu-mainbutton {
+	z-index: 2;
+}
+.toolsmenu-mainbutton.ui-state-active {
+	background: #fff !important;
+	color: #666 !important;
+	border-bottom: none !important;
+	-webkit-border-radius: 2px 2px 0 0 !important;
+	-moz-border-radius: 2px 2px 0 0 !important;
+	border-radius: 2px 2px 0 0 !important;
+	border-color: #bbb !important;
+	
+}
+
+.toolsmenu-rows .ui-state-hover {
+	background: #eee !important;
+}
+
+.toolsmenu-rows .ui-state-active {
+	background: #888 !important;
+	color: #fff !important;
+}

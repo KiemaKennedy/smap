@@ -1,0 +1,107 @@
+/*
+ * Copyright (C) 2011-2013 sMap Project and its contributors.
+ * See the NOTICE file for details.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+
+
+.baselayerDiv {
+	font-size: 12px;
+	height: auto;
+	float: right;
+	width: auto;
+}
+
+/* Properties for the baselayer switch buttons */
+.baselayer-button {
+	z-index: 1005;
+	position: relative;
+	float: right;
+	display: block;
+	cursor: pointer;
+	cursor: hand;
+	text-align: center;
+	width: auto;
+	padding: 0;
+	height: 20px;
+	border: 1px solid #848484;
+	background-color: #ffffff;
+	color: #222;
+	font-size: 1.1em;
+	overflow: hidden;
+	line-height: 18px;
+	font-weight: normal;
+	/*background: #cccccc url(img/ui-bg_highlight-hard_100_cccccc_1x100.png) 50% 50% repeat-x;*/
+	
+}
+
+/* Baselayer buttons on click. This class is added by jQuery in the code on click. */
+.baselayer-button-clicked {
+	background: #fff !important;
+	font-weight: bold;
+	color: #000;
+	filter: alpha(opacity=90);
+	opacity: 0.90;
+}
+
+/*.baselayer-button:hover {
+	font-weight: bold;
+	border: 1px solid #363636;
+}*/
+
+/* CSS for the category button when drop-down is visible. */
+.dropDownHover {
+	border-bottom: 2px solid #fff !important;
+}
+
+.dropDownHover-notClicked {
+	border-bottom: 2px solid #848484 !important;
+}
+
+.bLayerSwitcher-dropDown {
+	top: -1px;
+	font-size: 1.1em;
+	font-weight: normal;
+	position: relative;
+	width: auto;
+	height: auto;
+	background-color: #fff; /*#363636;*/
+	border: 1px solid #848484;
+	padding: 7px;
+	float: right;
+	filter: alpha(opacity=90);
+	opacity: 0.90;
+	white-space : nowrap;
+	
+	box-shadow: 0px 0px 10px #AAA;
+	-moz-box-shadow: 0px 0px 10px #AAA;
+	-webkit-box-shadow: 0px 0px 10px #AAA;
+}
+
+.bLayerSwitcher-dropDown div {
+	padding: none;
+	cursor: pointer;
+	color: #222;
+	width: auto;
+	line-height: 20px;
+	
+}
+
+.bLayerSwitcher-dropDown div input {
+}
+
+.bLayerSwitcher-dropDown div span {
+	margin-left: 5px;
+}
