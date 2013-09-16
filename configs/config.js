@@ -27,25 +27,23 @@ var config = {
 	
 	version : "4.1.1",
 	projection : "", // TODO: Add projection name for layers
-	resolutions : [ ], // TODO: Add resolutions
+	resolutions : [27.781305, 13.229193, 5.291677, 2.645839],
 	
-    // TODO: The extents need to be adjusted based on your layer definitions and
-    //   what you want visible on the map.
+	proxyHost : "", 
+	
 	maxExtent : {
-		w : 0,
-		s : 0,
-		e : 0,
-		n : 0
+		w : 100000,
+		s : 6148850,
+		e : 139000,
+		n : 6173450
 	},
 
 	defaultExtent : {
-		w : 0,
-		s : 0,
-		e : 0,
-		n : 0
+		w : 104853,
+		s : 6150876,
+		e : 131653,
+		n : 6171076
 	},
-	
-	proxyHost : "", 
 	
 	iFrame : false,
 	
@@ -54,25 +52,54 @@ var config = {
 	layers : {
 		
 		overlays : [
-			{
-                // TODO: Insert overlay layers definitions here
-			}
+
 		],
 		
 		baselayers : [
 			{
-                // TODO: Insert base layer definitions here
-			}			
-		]
+				displayName : "Karta",
+				name : "karta_sv",
+				URL: document.location.protocol + "//xyz.malmo.se/data_e/github_tilecache/",
+				layer : "malmo_map",
+				layerType : "tilecache",
+				category : "Karta",
+				options : {
+					buffer : 0,
+					transitionEffect : "resize",
+					format : "image/png",
+					isBaseLayer : true,
+					attribution : "<a href='http://www.malmo.se' target='_blank'>© Malmö stad</a>"            
+                }
+            },
+			{
+				displayName : "Fotokarta",
+				name : "fotokarta",
+				URL: document.location.protocol + "//xyz.malmo.se/data_e/github_tilecache/",
+				layer : "malmo_orto",
+				layerType : "tilecache",
+				category : "Fotokarta",
+				options : {
+					buffer : 0,
+					transitionEffect : "resize",
+					format : "image/jpeg",
+					isBaseLayer : true,
+				    resolutions : [27.781305, 13.229193, 5.291677, 2.645839], // EPSG:3008
+					maxExtent: new OpenLayers.Bounds(104853,6150876,131653,6171076),
+					attribution : "<a href='http://www.malmo.se' target='_blank'>© Malmö stad</a>"            
+                }
+            }
+        ]
 	},
 	
 	modules : 
 	[
 		{
-			init : null, // TODO: Replace with module initializer
+			init : sMap.Module.BaselayerSwitcher,
 			config : {
-                // TODO: Insert configuration specific to the module here
+				dropDownOnSingle : false,
+				buttonWidth : 75,
+				dropDownWidth : 130
 			}
-		},
+		}
 	]
 };
