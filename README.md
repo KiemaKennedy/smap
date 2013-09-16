@@ -18,8 +18,8 @@ med paketet är att tillhandahålla ett komplett ramverk och tillhörande
 utökningar som gör det möjligt att bygga avancerade kartapplikationen
 på webben.
 
-För mer information om sMap-projektet, besök vår webbplats på
-http://www.smap.se.
+För mer information om sMap-projektet, kontakta våra
+projektsamordnare. Se längst ned.
 
 Omfattning
 ----------
@@ -63,9 +63,16 @@ För att komma igång, gör följande:
 Observera! Du måste ha Python 2.7.x samt Java 6 eller nyare
 installerat för att kunna köra cc.py.
 
+Bidrag
+------
+
+Om du använder sMap för att göra en egen karta, eller förändrar den,
+får du gärna höra av dig till oss och dela med dig av dina
+erfarenheter och dina ändringar.
+
 Frågor, synpunkter eller förslag?
 ---------------------------------
 
-Vi välkomnar all slags återkoppling. Hör gärna av dig via vårt
-github-konto eller via vår hemsida på http://www.smap.se.
-
+Vi välkomnar all slags återkoppling! Hör gärna av dig till våra
+projektsamordnare Ulf Minör (ulf.minor (snabel-a) malmo.se) och
+Karl-Magnus Jönsson (karl-magnus.jonsson (snabel-a) kristianstad.se).
