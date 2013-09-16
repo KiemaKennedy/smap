@@ -54,14 +54,11 @@ Komma igång
 
 För att komma igång, gör följande:
 
-# Klona eller ladda ned källkoden i detta källkodsförråd
-
-# Anpassa configs/config.js så att den refererar korrekta datakällor
-
-# Kör kompilering och komprimering genom att köra Python-skriptet
-  cc.py med utgångspunkt i roten av arkivet.
-
-# Ladda upp hela förrådet till en webbserver och besök index.html.
+ 1. Klona eller ladda ned källkoden i detta källkodsförråd
+ 2. Anpassa configs/config.js så att den refererar korrekta datakällor
+ 3. Kör kompilering och komprimering genom att köra Python-skriptet
+    cc.py med utgångspunkt i roten av arkivet.
+ 4. Ladda upp hela förrådet till en webbserver och besök index.html.
 
 Observera! Du måste ha Python 2.7.x samt Java 6 eller nyare
 installerat för att kunna köra cc.py.
